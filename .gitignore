@@ -1,0 +1,9 @@
+.metadata
+*.retry
+.DS_Store
+*.rpm
+*.exe
+*.sdn
+*.vm
+*.ct
+.idea
