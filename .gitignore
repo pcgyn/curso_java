@@ -7,3 +7,7 @@
 *.vm
 *.ct
 .idea
+.project
+.classpath
+.settings
+
