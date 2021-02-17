@@ -38,10 +38,25 @@ public class Main {
 		
 		Scanner mta = new Scanner(System.in);
 		
-				Double delta, a, b c, x1, x2;
+				Double delta, a, b, c, x1, x2;
+				
+				System.out.print("Digite o valor de a: ");
+				a = mta.nextDouble();
+				System.out.print("Digite o valor de b: ");
+				b = mta.nextDouble();
+				System.out.print("Digite o valor de c: ");
+				c = mta.nextDouble();
+				
+				delta = Math.pow(b, 2.0) - 4 * a * c;
+				x1 = ((Math.abs(b) * -1) + Math.sqrt(delta)) / (2.0 * a);
+				x2 = ((Math.abs(b) * -1) - Math.sqrt(delta)) / (2.0 * a);
+				
+				System.out.println();
+				System.out.printf("O Valor calculado de delta é: %.3f%n", delta);
+				System.out.printf("O Valor da raiz x1 é: %.3f%n", x1);
+				System.out.printf("O Valor da raiz x2 é: %.3f%n", x2);
 				
 				
-		
 				mta.close();
 		
 		
